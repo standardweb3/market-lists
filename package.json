@@ -18,7 +18,7 @@
     "node": ">=10"
   },
   "repository": {
-    "url": "https://github.com/Uniswap/token-lists",
+    "url": "https://github.com/standardweb3/market-lists",
     "type": "git"
   },
   "scripts": {

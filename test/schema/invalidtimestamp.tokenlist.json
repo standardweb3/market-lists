@@ -10,6 +10,7 @@
     }
   },
   "timestamp": "abc",
+  "pairs": [],
   "tokens": [
     {
       "name": "blah",

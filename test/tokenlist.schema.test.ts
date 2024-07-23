@@ -36,6 +36,7 @@ describe('schema', () => {
 
   function checkSchema(schema: any, valid: boolean): void {
     const isValid = validator(schema);
+    //console.error(validator.errors, "errors");
     expect(validator.errors).toMatchSnapshot();
     expect(isValid).toEqual(valid);
   }

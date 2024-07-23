@@ -348,6 +348,15 @@ Array [
 exports[`schema checks token address 1`] = `
 Array [
   Object {
+    "instancePath": "/pairs",
+    "keyword": "minItems",
+    "message": "must NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/pairs/minItems",
+  },
+  Object {
     "instancePath": "/tokens/0/address",
     "keyword": "pattern",
     "message": "must match pattern \\"^0x[a-fA-F0-9]{40}$\\"",
@@ -371,6 +380,15 @@ Array [
     },
     "schemaPath": "#/definitions/Version/properties/patch/minimum",
   },
+  Object {
+    "instancePath": "/pairs",
+    "keyword": "minItems",
+    "message": "must NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/pairs/minItems",
+  },
 ]
 `;
 
@@ -385,6 +403,15 @@ Array [
       "limit": 0,
     },
     "schemaPath": "#/definitions/Version/properties/minor/minimum",
+  },
+  Object {
+    "instancePath": "/pairs",
+    "keyword": "minItems",
+    "message": "must NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/pairs/minItems",
   },
 ]
 `;
@@ -401,6 +428,15 @@ Array [
     },
     "schemaPath": "#/definitions/Version/properties/major/minimum",
   },
+  Object {
+    "instancePath": "/pairs",
+    "keyword": "minItems",
+    "message": "must NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/pairs/minItems",
+  },
 ]
 `;
 
@@ -408,6 +444,15 @@ exports[`schema cross chain extensions example 1`] = `null`;
 
 exports[`schema empty list fails 1`] = `
 Array [
+  Object {
+    "instancePath": "/pairs",
+    "keyword": "minItems",
+    "message": "must NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/pairs/minItems",
+  },
   Object {
     "instancePath": "/tokens",
     "keyword": "minItems",
@@ -451,6 +496,15 @@ Array [
 exports[`schema invalid decimals 1`] = `
 Array [
   Object {
+    "instancePath": "/pairs",
+    "keyword": "minItems",
+    "message": "must NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/pairs/minItems",
+  },
+  Object {
     "instancePath": "/tokens/0/decimals",
     "keyword": "maximum",
     "message": "must be <= 255",
@@ -465,6 +519,15 @@ Array [
 
 exports[`schema invalid decimals 2`] = `
 Array [
+  Object {
+    "instancePath": "/pairs",
+    "keyword": "minItems",
+    "message": "must NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/pairs/minItems",
+  },
   Object {
     "instancePath": "/tokens/0/decimals",
     "keyword": "minimum",
@@ -481,6 +544,15 @@ Array [
 exports[`schema invalid logo URI 1`] = `
 Array [
   Object {
+    "instancePath": "/pairs",
+    "keyword": "minItems",
+    "message": "must NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/pairs/minItems",
+  },
+  Object {
     "instancePath": "/tokens/0/logoURI",
     "keyword": "format",
     "message": "must match format \\"uri\\"",
@@ -495,6 +567,15 @@ Array [
 exports[`schema invalid logo URI 2`] = `
 Array [
   Object {
+    "instancePath": "/pairs",
+    "keyword": "minItems",
+    "message": "must NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/pairs/minItems",
+  },
+  Object {
     "instancePath": "/logoURI",
     "keyword": "format",
     "message": "must match format \\"uri\\"",
@@ -508,6 +589,15 @@ Array [
 
 exports[`schema invalid number of tags on token 1`] = `
 Array [
+  Object {
+    "instancePath": "/pairs",
+    "keyword": "minItems",
+    "message": "must NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/pairs/minItems",
+  },
   Object {
     "instancePath": "/tokens/0/tags",
     "keyword": "maxItems",
@@ -530,6 +620,15 @@ Array [
       "format": "date-time",
     },
     "schemaPath": "#/properties/timestamp/format",
+  },
+  Object {
+    "instancePath": "/pairs",
+    "keyword": "minItems",
+    "message": "must NOT have fewer than 1 items",
+    "params": Object {
+      "limit": 1,
+    },
+    "schemaPath": "#/properties/pairs/minItems",
   },
 ]
 `;
