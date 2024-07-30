@@ -4,6 +4,30 @@
   "title": "Standard Market List",
   "description": "Schema for lists of tokens compatible with the Standard Interface",
   "definitions": {
+    "DefaultPair": {
+      "type": "object",
+      "description": "The default pair of each chain",
+      "additionalProperties": true,
+      "patternProperties": {
+        "^[a-zA-Z0-9_]+$": {
+          "type": "object",
+          "$ref": "#/definitions/Pair"
+        }
+      },
+      "minProperties": 1
+    },
+    "ScannerLink": {
+      "type": "object",
+      "description": "The scanner link of the list",
+      "additionalProperties": true,
+      "patternProperties": {
+        "^[a-zA-Z0-9_]+$": {
+          "type": "string",
+          "pattern": "^https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)$"
+        }
+      },
+      "minProperties": 1
+    },
     "MatchingEngine": {
       "type": "object",
       "description": "The matching engine of the list",
@@ -460,6 +484,7 @@
     "name",
     "timestamp",
     "version",
-    "tokens"
+    "tokens",
+    "pairs"
   ]
 }

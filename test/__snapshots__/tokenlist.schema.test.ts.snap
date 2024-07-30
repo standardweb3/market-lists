@@ -592,6 +592,15 @@ Array [
     },
     "schemaPath": "#/required",
   },
+  Object {
+    "instancePath": "",
+    "keyword": "required",
+    "message": "must have required property 'pairs'",
+    "params": Object {
+      "missingProperty": "pairs",
+    },
+    "schemaPath": "#/required",
+  },
 ]
 `;
 
