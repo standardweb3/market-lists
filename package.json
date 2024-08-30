@@ -6,7 +6,7 @@
     "url": "https://standardweb3.com"
   },
   "description": "📚 The Token Lists specification",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
